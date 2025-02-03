@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <h1>Poid Calculate</h1>
+    <form action="#">
+        <label for="user_poid">
+            <input type="number" placeholder="Entrez votre taille (cm)" min="0" id="taille">
+        </label>
+        <br>
+        <label for="user_year">
+            <input type="number" placeholder="Entrez votre année (ans)" id="ans">
+        </label>
+        <br>
+        <label for="user_measure">Entrez votre état: </label>
+        <br>
+        <input type="radio" id="mince" name="type" value="mince">
+        <label for="mince">Mince</label>
+        <br>
+        <input type="radio" id="moyen" name="type" value="moyen">
+        <label for="moyen">Moyen</label>
+        <br>
+        <input type="radio" id="large" name="type" value="large">
+        <label for="large">Large</label>
+    </form>
+    <button id="btn">Calculer</button>
+    <p id="rez"></p>
+    <script src="code.js"></script>
+</body>
+</html>

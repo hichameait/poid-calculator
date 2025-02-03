@@ -1,0 +1,15 @@
+{
+  "c_taille": 100,
+  "c_annee": 10,
+  
+  "moyen": {
+    "coe1": 0.9
+  },
+  "mince": {
+    "coe1": 0.9
+  },
+  "large": {
+    "coe1": 0.9,
+    "coe2": 1.1
+  }
+}
